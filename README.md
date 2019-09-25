@@ -112,11 +112,13 @@ http://www.pointclouds.org/downloads/windows.html
 
 
 
-Euclidean Cluster Extraction Tutorial
+***Euclidean Cluster Extraction Tutorial***
 
 Source: http://pointclouds.org/documentation/tutorials/cluster_extraction.php#cluster-extraction
 
 
 
+## Final Notes
+This project is inspired by Udacity Sensor Fusion Engineer Nanodgree
 
 
