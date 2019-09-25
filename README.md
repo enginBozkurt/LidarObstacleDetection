@@ -53,8 +53,6 @@ Filtered output is segmented. Segmentation divides the scene into plane and obje
 ## Bounding Box 
  For each of the cluster a bounding box is fitted. To fit a box min and max coordinates of a cluster are used. Using renderbox function boxes are drawn. 
  
-## Output
- Screen shots of output in different views are placed in Output folder.
 
 
 ## Installation
