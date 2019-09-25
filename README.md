@@ -42,7 +42,8 @@ Filtered output is segmented. Segmentation divides the scene into plane and obje
   - Loop through all the points in the cloud, for each of the point calculate
      - The distance to the plane created above. If the distance is below distanceTol then add the index to a temporary set
      - Store the temporary vector if the size is more than previously identified indices.
-  - Repeat above steps for maxIterations
+  - Repeat above steps for maxIterations : 
+  
  maxIterations value was obtained by doing a couple of trails with different values, value that gives best result was choosen. 
  
  ## Clustering
