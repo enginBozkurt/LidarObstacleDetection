@@ -96,6 +96,8 @@ http://www.pointclouds.org/downloads/windows.html
 	```
 
 
+## Some notes about the mentioned Algorithms
+
 
 
 
