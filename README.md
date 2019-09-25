@@ -108,6 +108,9 @@ http://www.pointclouds.org/downloads/windows.html
 
 ***class pcl::CropBox< PointT > CropBox is a filter that allows the user to filter all the data inside of a given box.***
 
+![Screenshot_3](https://user-images.githubusercontent.com/30608533/65599785-44e68000-dfa7-11e9-9974-15b276202b76.jpg)
+
+
 
 
 
