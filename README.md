@@ -117,6 +117,6 @@ Source: http://pointclouds.org/documentation/tutorials/cluster_extraction.php#cl
 
 
 ## Final Notes
-This project is inspired by Udacity Sensor Fusion Engineer Nanodegree
+This project is inspired by Udacity Sensor Fusion Engineer Nanodegree course.
 
 
