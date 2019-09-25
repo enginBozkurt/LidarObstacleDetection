@@ -12,7 +12,8 @@
 
 ```diff
  This project implements pipeline for converting the raw LIDAR sensor measurements into trackable objects. 
- It implements filtering, segmentation, clustering, boundbox routines. Filtering was performed using the PCL functions. 
+ It implements filtering, segmentation, clustering, boundbox routines. Filtering was performed using 
+ the PCL functions. 
  Functions were implemented for segmentation and clustering. The pipeline details are as the following.
 ```
 
