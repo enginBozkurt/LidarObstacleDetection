@@ -128,7 +128,7 @@ Source: http://pointclouds.org/documentation/tutorials/cluster_extraction.php#cl
 
 ## For Linux Ubuntu 18.04
 
-```console
+```bash
 ### Clone latest PCL(Current is 1.9.1)
 sudo apt-get update
 sudo apt-get install -y git
