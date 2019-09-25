@@ -112,7 +112,9 @@ http://www.pointclouds.org/downloads/windows.html
 
 
 
-![Screenshot_4](https://user-images.githubusercontent.com/30608533/65600274-8166ab80-dfa8-11e9-9b02-7ffde8e7f6a8.jpg)
+Euclidean Cluster Extraction Tutorial
+
+Source: http://pointclouds.org/documentation/tutorials/cluster_extraction.php#cluster-extraction
 
 
 
