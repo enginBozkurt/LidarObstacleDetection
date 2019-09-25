@@ -13,7 +13,7 @@
 ```diff
  This project implements pipeline for converting the raw LIDAR sensor measurements into trackable objects. 
  It implements filtering, segmentation, clustering, boundbox routines. Filtering was performed using the PCL functions. 
- Functions were implemented for segmentation and clustering. Following are the pipeline details.
+ Functions were implemented for segmentation and clustering. The pipeline details are as the following.
 ```
 
 
@@ -40,8 +40,8 @@ The raw LIDAR data is filtered , this helps in increasing the processing speed a
 Filtered output is segmented. Segmentation divides the scene into plane and objects. Plane refers the road surface. This step helps in differetiating the drivable area from obstacles. RANSAC algorithm was used. Following steps were performed to realise thie function.
   - Randomly choose 3 points from the cloud, fit a plane using these points.
   - Loop through all the points in the cloud, for each of the point calculate
-    - The distance to the plane created above. If the distance is below distanceTol then add the index to a temporary set
-    - Store the temporary vector if the size is more than previously identified indices.
+     - The distance to the plane created above. If the distance is below distanceTol then add the index to a temporary set
+     - Store the temporary vector if the size is more than previously identified indices.
   - Repeat above steps for maxIterations
  maxIterations value was obtained by doing a couple of trails with different values, value that gives best result was choosen. 
  
