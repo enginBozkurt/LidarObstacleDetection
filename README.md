@@ -116,7 +116,56 @@ http://www.pointclouds.org/downloads/windows.html
 
 Source: http://pointclouds.org/documentation/tutorials/cluster_extraction.php#cluster-extraction
 
+### Point Cloud Library (PCL) functions installation guide and notes
 
+## For Linux Ubuntu 16.04
+
+- https://larrylisky.com/2014/03/03/installing-pcl-on-ubuntu/
+
+- libvtk needed to be updated to libvtk6-dev instead of (libvtk5-dev). The linker was having trouble locating libvtk5-dev while building, but this might not be a problem for everyone.
+
+- BUILD_visualization needed to be manually turned on, this link shows you how to do that, http://www.pointclouds.org/documentation/tutorials/building_pcl.php
+
+## For Linux Ubuntu 18.04
+
+```console
+### Clone latest PCL(Current is 1.9.1)
+sudo apt-get update
+sudo apt-get install -y git
+
+cd ~/Documents
+git clone https://github.com/PointCloudLibrary/pcl.git pcl-trunk
+ln -s pcl-trunk pcl
+cd pcl
+
+### Install prerequisites
+sudo apt-get install -y g++
+sudo apt-get install -y cmake cmake-gui
+sudo apt-get install -y doxygen
+sudo apt-get install -y mpi-default-dev openmpi-bin openmpi-common
+sudo apt-get install -y libflann1.9 libflann-dev
+sudo apt-get install -y libeigen3-dev
+sudo apt-get install -y libboost-all-dev
+sudo apt-get install -y libvtk6-dev libvtk6.3 libvtk6.3-qt
+sudo apt-get install -y 'libqhull*'
+sudo apt-get install -y libusb-dev
+sudo apt-get install -y libgtest-dev
+sudo apt-get install -y git-core freeglut3-dev pkg-config
+sudo apt-get install -y build-essential libxmu-dev libxi-dev
+sudo apt-get install -y libusb-1.0-0-dev graphviz mono-complete
+sudo apt-get install -y qt-sdk openjdk-11-jdk openjdk-11-jre
+sudo apt-get install -y phonon-backend-gstreamer
+sudo apt-get install -y phonon-backend-vlc
+sudo apt-get install -y libopenni-dev libopenni2-dev
+
+### Compile and install PCL
+mkdir release
+cd release
+cmake -DCMAKE_BUILD_TYPE=None -DBUILD_GPU=ON -DBUILD_apps=ON -DBUILD_examples=ON ..
+make
+sudo make install
+
+```
 
 ## Final Notes
 This project is inspired by Udacity Sensor Fusion Engineer Nanodegree course.
