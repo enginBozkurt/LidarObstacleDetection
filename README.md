@@ -97,7 +97,12 @@ http://www.pointclouds.org/downloads/windows.html
 	```
 
 
-## Some notes about the mentioned Algorithms
+## Notes about the mentioned Algorithms and Point Cloud Library (PCL) functions
+
+![Screenshot_1](https://user-images.githubusercontent.com/30608533/65598405-013e4700-dfa4-11e9-9ee4-d48650cd486d.jpg)
+
+![Screenshot_2](https://user-images.githubusercontent.com/30608533/65598416-0602fb00-dfa4-11e9-967b-19cb9db49b09.jpg)
+
 
 
 
